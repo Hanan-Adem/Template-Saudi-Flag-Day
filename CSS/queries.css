@@ -1,0 +1,105 @@
+/**************************/
+/* BELOW 394px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .text-box {
+    padding-right: 1rem;
+  }
+
+  h1 {
+    max-width: 150px;
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 0.7rem;
+  }
+
+  .march {
+    display: inline-block;
+    margin-left: 1.7rem;
+    margin-bottom: 6rem;
+  }
+
+  .timer {
+    font-size: 0.8rem;
+    margin-right: 4.5rem;
+  }
+
+  .btn {
+    margin-top: 2rem;
+    margin-right: 5rem;
+    width: 65%;
+  }
+
+  .flag-img {
+    width: 23rem;
+    height: 10rem;
+    margin-right: 2.5rem;
+    margin-top: 3rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+  }
+
+  .contant {
+    min-width: 390px;
+    font-size: 0.9rem;
+  }
+
+  p {
+    margin-right: 1rem;
+  }
+
+  .contant-box {
+    position: relative;
+  }
+
+  .background-img {
+    position: absolute;
+    width: 109%;
+    height: 18rem;
+    top: -3rem;
+  }
+
+  .background-imgg {
+    position: absolute;
+    width: 109%;
+    height: 18rem;
+    top: 17rem;
+    right: 0rem;
+  }
+
+  .share {
+    position: relative;
+    font-size: 0.8rem;
+  }
+
+  .material-symbols-outlined {
+    font-size: 1rem;
+    right: 9rem;
+    top: -0.2rem;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+    margin-right: 1.2rem;
+  }
+
+  .line {
+    margin-right: 5rem;
+    width: 15rem;
+  }
+
+  .icons {
+    margin-left: -2rem;
+    font-size: 1.3rem;
+  }
+
+  i {
+    padding-left: 2rem;
+  }
+}

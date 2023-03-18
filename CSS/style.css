@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: Tajawal;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
+    url(/img/background.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-box {
+  direction: rtl;
+  color: white;
+  padding-top: 8rem;
+  padding-right: 10rem;
+}
+
+.march {
+  margin-left: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: rgb(209, 209, 209);
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+}
+
+#countdown div {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: #33333351;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.timer {
+  display: flex;
+  margin-right: 31rem;
+  color: rgb(209, 209, 209);
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.padding {
+  padding-left: 4rem;
+}
+
+.p {
+  padding-left: 3.3rem;
+}
+.pp {
+  padding-left: 4.5rem;
+}
+
+.btn {
+  background-color: rgb(0, 100, 73);
+  padding: 0.3rem;
+  width: 35%;
+  margin-right: 26rem;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(1, 79, 58);
+}
+
+.btn .link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* ************************* */
+/* PAGE TWO */
+/* ************************* */
+
+.reveal {
+  position: relative;
+  transform: translatey(-25px);
+  opacity: 1;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(-25px);
+  opacity: 1;
+}
+
+.flag-img {
+  margin-top: 2rem;
+  margin-right: 4.5rem;
+  width: 70rem;
+  height: 19rem;
+  border-radius: 15px;
+  margin-bottom: 6rem;
+}
+
+.contant-box {
+  position: relative;
+}
+
+.background-img {
+  width: 100%;
+  height: 25rem;
+  opacity: 2%;
+  position: absolute;
+  margin-bottom: 9rem;
+  top: -6rem;
+}
+
+h2 {
+  margin-right: 4rem;
+  font-size: 3rem;
+  color: rgb(0, 100, 73);
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.7rem;
+  margin-right: 4rem;
+  max-width: 1000px;
+  margin-bottom: 12rem;
+}
+
+.margin {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.background-imgg {
+  width: 100%;
+  height: 25rem;
+  opacity: 2%;
+  position: absolute;
+  margin-bottom: 9rem;
+  top: 18rem;
+}
+
+.share {
+  color: rgb(0, 100, 73);
+  font-size: 1rem;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.line {
+  margin-right: 22rem;
+  border-top: 1px solid rgb(223, 223, 223);
+  width: 34rem;
+  margin-bottom: 2rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-left: -2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.fa-brands {
+  transition: all 0.1s;
+}
+
+.fa-brands:hover {
+  transform: translateY(-0.5rem);
+}
+
+i {
+  color: rgb(0, 100, 73);
+  padding-left: 3rem;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  font-size: 1.3rem;
+  transition: all 0.1s;
+  color: rgb(0, 100, 73);
+  margin-bottom: 0;
+  right: 34rem;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+  transform: translateY(-0.5rem);
+}
